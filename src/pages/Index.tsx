@@ -13,7 +13,7 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <NavBar />
       
-      <Spotlight spotlightSize={200} color="86, 156, 214">
+      <Spotlight spotlightSize={250} color="86, 156, 214" nameHighlight="John Doe">
         <main className="pt-16">
           <Summary />
           <Education />
