@@ -2,6 +2,7 @@
 import React from 'react';
 import { Mail, Phone, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import SocialLinks from '@/components/SocialLinks';
 
 const Contact = () => {
   const downloadResume = () => {
@@ -59,8 +60,18 @@ const Contact = () => {
             &#125;);
           </div>
           
-          <div className="code-line mt-6 mb-8">
+          <div className="code-line mt-6">
             <span className="line-number">04</span>
+            <span className="comment">// Connect with me on social media</span>
+          </div>
+          
+          <div className="code-line">
+            <span className="line-number">05</span>
+            <span className="keyword">const</span> <span className="variable">socialProfiles</span> = <SocialLinks />
+          </div>
+          
+          <div className="code-line mt-6 mb-8">
+            <span className="line-number">06</span>
             <div className="flex items-center">
               <span className="keyword">return</span> 
               <Button onClick={downloadResume} className="ml-4 bg-code-blue hover:bg-code-blue/80 flex items-center gap-2">
