@@ -14,7 +14,9 @@ const Spotlight = ({
 }: SpotlightProps) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isMouseInside, setIsMouseInside] = useState(false);
+  const [isMoving, setIsMoving] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const moveTimeout = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -24,6 +26,16 @@ const Spotlight = ({
           x: e.clientX - rect.left,
           y: e.clientY - rect.top
         });
+        
+        setIsMoving(true);
+        
+        if (moveTimeout.current) {
+          clearTimeout(moveTimeout.current);
+        }
+        
+        moveTimeout.current = setTimeout(() => {
+          setIsMoving(false);
+        }, 300);
       }
     };
 
@@ -33,6 +45,7 @@ const Spotlight = ({
 
     const handleMouseLeave = () => {
       setIsMouseInside(false);
+      setIsMoving(false);
     };
 
     const container = containerRef.current;
@@ -45,17 +58,21 @@ const Spotlight = ({
         container.removeEventListener('mousemove', handleMouseMove);
         container.removeEventListener('mouseenter', handleMouseEnter);
         container.removeEventListener('mouseleave', handleMouseLeave);
+        if (moveTimeout.current) {
+          clearTimeout(moveTimeout.current);
+        }
       };
     }
   }, []);
 
   const spotlightStyle = isMouseInside ? {
     background: `radial-gradient(circle ${spotlightSize}px at ${position.x}px ${position.y}px, 
-                rgba(${color}, 0.15), 
-                rgba(${color}, 0.1) 20%, 
-                rgba(${color}, 0.05) 40%, 
+                rgba(${color}, ${isMoving ? 0.25 : 0.15}), 
+                rgba(${color}, ${isMoving ? 0.15 : 0.1}) 20%, 
+                rgba(${color}, ${isMoving ? 0.08 : 0.05}) 40%, 
                 rgba(${color}, 0) 80%)`,
     mixBlendMode: 'overlay' as const,
+    transition: isMoving ? 'none' : 'all 0.3s ease-out',
   } : {};
 
   return (
