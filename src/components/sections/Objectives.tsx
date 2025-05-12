@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award } from 'lucide-react';
 import {
@@ -17,7 +18,7 @@ const Objectives = () => {
         <div className="flex items-center mb-6 gap-4">
           <Award className="text-code-orange" size={28} />
           <h2 className="text-3xl font-bold text-code-orange">
-            <span className="keyword">const</span> <span className="function">certifications</span> = () => &#123;
+            <span className="keyword">const</span> <span className="function">certifications</span> = () =&gt; &#123;
           </h2>
         </div>
         
