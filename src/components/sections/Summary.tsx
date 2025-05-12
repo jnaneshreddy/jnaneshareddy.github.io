@@ -25,9 +25,12 @@ const Summary = () => {
           <div className="code-line pl-8 mt-4">
             <span className="line-number">03</span>
             <p className="text-lg leading-relaxed">
-              I'm a passionate <span className="text-code-teal">full-stack developer</span> with experience 
-              in building web applications using modern technologies. I enjoy solving complex problems and 
-              creating intuitive, efficient solutions.
+            I'm an aspiring <span className="text-code-blue">developer</span> with a keen interest in
+             <span className="text-code-green">Web Development</span>, <span className="text-code-red">Cybersecurity</span>, 
+             and <span className="text-code-purple">Artificial Intelligence</span>. Driven by curiosity and a passion for technology,I'am dedicated to building secure, 
+             innovative, and impactful digital solutions.
+
+
             </p>
           </div>
           <div className="code-line pl-8 mt-4">
