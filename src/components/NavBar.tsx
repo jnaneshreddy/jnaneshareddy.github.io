@@ -34,7 +34,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-code-teal">JNANESH <span className="text-code-blue">REDDY </span></span>
+            <span className="text-xl font-bold text-code-teal">JNANESHA <span className="text-code-blue">REDDY </span></span>
           </div>
           
           {/* Mobile menu button */}
