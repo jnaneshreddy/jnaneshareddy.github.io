@@ -25,34 +25,49 @@ const Education = () => {
           </div>
           
           <div className="mb-8 mt-4">
-            <div className="code-line pl-8">
-              <span className="line-number">03</span>
-              <div className="bg-secondary p-5 rounded-lg my-2">
-                <h3 className="text-xl font-semibold text-code-yellow mb-1">Bachelor of Science in Computer Science</h3>
-                <p className="text-code-blue">University of Technology</p>
-                <p className="text-sm text-muted-foreground">2018 - 2022</p>
-                <ul className="mt-2 list-disc list-inside text-sm">
-                  <li>Data Structures and Algorithms</li>
-                  <li>Web Development</li>
-                  <li>Database Management</li>
-                </ul>
-              </div>
-            </div>
-            
-            <div className="code-line pl-8 mt-4">
-              <span className="line-number">04</span>
-              <div className="bg-secondary p-5 rounded-lg my-2">
-                <h3 className="text-xl font-semibold text-code-yellow mb-1">Advanced Web Development Certification</h3>
-                <p className="text-code-blue">Tech Academy</p>
-                <p className="text-sm text-muted-foreground">2022</p>
-                <ul className="mt-2 list-disc list-inside text-sm">
-                  <li>Modern JavaScript Frameworks</li>
-                  <li>Responsive Design</li>
-                  <li>API Integration</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <div className="code-line pl-8">
+    <span className="line-number">01</span>
+    <div className="bg-secondary p-5 rounded-lg my-2">
+      <h3 className="text-xl font-semibold text-code-yellow mb-1">Master of Computer Applications</h3>
+      <p className="text-code-blue">The Oxford College of Engineering</p>
+      <p className="text-sm text-muted-foreground">2023 - 2025</p>
+      <ul className="mt-2 list-disc list-inside text-sm">
+        <li>Advanced Web Development</li>
+        <li>AI and Cybersecurity</li>
+        <li>Database Systems</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div className="code-line pl-8">
+    <span className="line-number">02</span>
+    <div className="bg-secondary p-5 rounded-lg my-2">
+      <h3 className="text-xl font-semibold text-code-yellow mb-1">Bachelor of Computer Applications</h3>
+      <p className="text-code-blue">RJS First Grade College</p>
+      <p className="text-sm text-muted-foreground">2020 - 2023</p>
+      <ul className="mt-2 list-disc list-inside text-sm">
+        <li>Object-Oriented Programming</li>
+        <li>Web Development</li>
+        <li>Database Management</li>
+      </ul>
+    </div>
+  </div>
+
+  <div className="code-line pl-8">
+    <span className="line-number">03</span>
+    <div className="bg-secondary p-5 rounded-lg my-2">
+      <h3 className="text-xl font-semibold text-code-yellow mb-1">PUC/12 (Science)</h3>
+      <p className="text-code-blue">Morarji Desai Residential Science PU College</p>
+      <p className="text-sm text-muted-foreground">2018 - 2020</p>
+      <ul className="mt-2 list-disc list-inside text-sm">
+        <li>Physics, Chemistry, and Mathematics</li>
+        <li>Basic Computer Science</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
           
           <div className="code-line">
             <span className="line-number">05</span>
