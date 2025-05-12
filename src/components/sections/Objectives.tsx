@@ -45,26 +45,23 @@ const Objectives = () => {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  <TableRow className="hover:bg-secondary/30">
-                    <TableCell className="font-medium">AWS Certified Solutions Architect</TableCell>
-                    <TableCell>Amazon Web Services</TableCell>
-                    <TableCell>2024</TableCell>
-                  </TableRow>
-                  <TableRow className="hover:bg-secondary/30">
-                    <TableCell className="font-medium">Professional Scrum Master (PSM I)</TableCell>
-                    <TableCell>Scrum.org</TableCell>
-                    <TableCell>2023</TableCell>
-                  </TableRow>
-                  <TableRow className="hover:bg-secondary/30">
-                    <TableCell className="font-medium">Certified Kubernetes Administrator</TableCell>
-                    <TableCell>Cloud Native Computing Foundation</TableCell>
-                    <TableCell>2023</TableCell>
-                  </TableRow>
-                  <TableRow className="hover:bg-secondary/30">
-                    <TableCell className="font-medium">Full Stack Web Development</TableCell>
-                    <TableCell>Udacity</TableCell>
-                    <TableCell>2022</TableCell>
-                  </TableRow>
+                <TableRow className="hover:bg-secondary/30">
+  <TableCell className="font-medium">Responsive Web Designing</TableCell>
+  <TableCell>FreeCodeCamp</TableCell>
+  <TableCell>2024</TableCell>
+</TableRow>
+<TableRow className="hover:bg-secondary/30">
+  <TableCell className="font-medium">The Complete Web Development Bootcamp</TableCell>
+  <TableCell>Udemy</TableCell>
+  <TableCell>2024</TableCell>
+</TableRow>
+<TableRow className="hover:bg-secondary/30">
+  <TableCell className="font-medium">00 Days of Code: The Complete Python Pro Bootcamp
+  </TableCell>
+  <TableCell>Self-Project</TableCell>
+  <TableCell>expected - july-2025 </TableCell>
+</TableRow>
+
                 </TableBody>
               </Table>
             </div>
