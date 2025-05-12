@@ -22,57 +22,58 @@ const Projects = () => {
           
           {/* Project 1 */}
           <div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(222,184,135,0.15)]">
-            <h3 className="text-xl font-bold text-code-yellow mb-2">E-commerce Platform</h3>
-            <p className="mb-4 text-muted-foreground">A full-stack e-commerce application with product management, shopping cart, and payment integration.</p>
-            
-            <div className="flex flex-wrap gap-2 mb-4">
-              <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">React</Badge>
-              <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">Node.js</Badge>
-              <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">MongoDB</Badge>
-              <Badge className="bg-code-orange/20 text-code-orange hover:bg-code-orange/30">Stripe API</Badge>
-            </div>
-            
-            <div className="code-line text-sm">
-              <span className="line-number">02</span>
-              <span className="comment">// github.com/username/ecommerce-project</span>
-            </div>
-          </div>
-          
-          {/* Project 2 */}
-          <div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(86,156,214,0.15)]">
-            <h3 className="text-xl font-bold text-code-blue mb-2">Task Management App</h3>
-            <p className="mb-4 text-muted-foreground">A productivity application for organizing tasks with real-time updates and collaboration features.</p>
-            
-            <div className="flex flex-wrap gap-2 mb-4">
-              <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">TypeScript</Badge>
-              <Badge className="bg-code-yellow/20 text-code-yellow hover:bg-code-yellow/30">Redux</Badge>
-              <Badge className="bg-code-orange/20 text-code-orange hover:bg-code-orange/30">Firebase</Badge>
-              <Badge className="bg-code-green/20 text-code-green hover:bg-code-green/30">Material UI</Badge>
-            </div>
-            
-            <div className="code-line text-sm">
-              <span className="line-number">03</span>
-              <span className="comment">// github.com/username/task-manager</span>
-            </div>
-          </div>
-          
-          {/* Project 3 */}
-          <div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(78,201,176,0.15)]">
-            <h3 className="text-xl font-bold text-code-teal mb-2">Weather Dashboard</h3>
-            <p className="mb-4 text-muted-foreground">A responsive weather application that fetches real-time data and displays forecasts with interactive visualizations.</p>
-            
-            <div className="flex flex-wrap gap-2 mb-4">
-              <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">JavaScript</Badge>
-              <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">Chart.js</Badge>
-              <Badge className="bg-code-orange/20 text-code-orange hover:bg-code-orange/30">Weather API</Badge>
-              <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">Tailwind CSS</Badge>
-            </div>
-            
-            <div className="code-line text-sm">
-              <span className="line-number">04</span>
-              <span className="comment">// github.com/username/weather-dashboard</span>
-            </div>
-          </div>
+  <h3 className="text-xl font-bold text-code-yellow mb-2">Student Result Management System</h3>
+  <p className="mb-4 text-muted-foreground">A web application to manage and track student results digitally with backend integration and SQL database.</p>
+  
+  <div className="flex flex-wrap gap-2 mb-4">
+    <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">HTML</Badge>
+    <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">CSS</Badge>
+    <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">JavaScript</Badge>
+    <Badge className="bg-code-orange/20 text-code-orange hover:bg-code-orange/30">PHP</Badge>
+    <Badge className="bg-code-green/20 text-code-green hover:bg-code-green/30">SQL</Badge>
+  </div>
+  
+  <div className="code-line text-sm">
+    <span className="line-number">01</span>
+    <span className="comment">// github.com/jnaneshreddy/student-result-management-result</span>
+  </div>
+</div>
+
+{/* Project 2 */}
+<div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(86,156,214,0.15)]">
+  <h3 className="text-xl font-bold text-code-blue mb-2">Personal Portfolio Website</h3>
+  <p className="mb-4 text-muted-foreground">A visually appealing and responsive portfolio website highlighting personal achievements and skills.</p>
+  
+  <div className="flex flex-wrap gap-2 mb-4">
+    <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">NEXT JS</Badge>
+    <Badge className="bg-code-yellow/20 text-code-yellow hover:bg-code-yellow/30">Tailwind CSS</Badge>
+    <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">CSS</Badge>
+    <Badge className="bg-code-orange/20 text-code-orange hover:bg-code-orange/30">JavaScript</Badge>
+  </div>
+  
+  <div className="code-line text-sm">
+    <span className="line-number">02</span>
+    <span className="comment">// github.com/jnaneshreddy/jnaneshreddy.github.io</span>
+  </div>
+</div>
+
+{/* Project 3
+<div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(78,201,176,0.15)]">
+  <h3 className="text-xl font-bold text-code-teal mb-2">Responsive Web Designing Projects</h3>
+  <p className="mb-4 text-muted-foreground">A series of web design projects focused on creating responsive and visually engaging layouts.</p>
+  
+  <div className="flex flex-wrap gap-2 mb-4">
+    <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">NEXT JS</Badge>
+    <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">Tailwind CSS</Badge>
+    <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">REAT</Badge>
+  </div>
+  
+  <div className="code-line text-sm">
+    <span className="line-number">03</span>
+    <span className="comment">// github.com/jnaneshreddy/responsive-web-design</span>
+  </div>
+</div> */}
+
         </div>
       </div>
     </section>
