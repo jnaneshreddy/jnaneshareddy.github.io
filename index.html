@@ -10,21 +10,332 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <meta property="og:title" content="Developer Portfolio" />
-    <meta property="og:description" content="Personal portfolio website with coding theme" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="spotlight-container">
+      <div id="spotlight"></div>
+      
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <pre>{&lt;/&gt;}</pre>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#summary" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#objectives" class="nav-link">Objectives</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section id="summary">
+          <div class="container">
+            <div class="section-header">
+              <span class="icon">📄</span>
+              <h2><span class="keyword">const</span> <span class="variable">summary</span> = () => {</h2>
+            </div>
+            
+            <div class="section-content">
+              <div class="code-line">
+                <span class="line-number">01</span>
+                <span class="comment">// Hello, I'm a Software Developer</span>
+              </div>
+              <div class="code-line">
+                <span class="line-number">02</span>
+                <span class="keyword">return</span> {
+              </div>
+              <div class="code-line nested">
+                <span class="line-number">03</span>
+                <p>I'm a passionate <span class="highlight">full-stack developer</span> with experience 
+                  in building web applications using modern technologies. I enjoy solving complex problems and 
+                  creating intuitive, efficient solutions.</p>
+              </div>
+              <div class="code-line nested">
+                <span class="line-number">04</span>
+                <p>My expertise includes <span class="highlight-orange">frontend development</span> with 
+                  JavaScript and CSS, as well as <span class="highlight-orange">backend development</span> using 
+                  Node.js and databases. I'm constantly learning and adapting to new technologies.</p>
+              </div>
+              <div class="code-line">
+                <span class="line-number">05</span>
+                };
+              </div>
+            </div>
+            
+            <div class="section-footer">
+              <h2>};</h2>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="alt-bg">
+          <div class="container">
+            <div class="section-header">
+              <span class="icon">🎓</span>
+              <h2><span class="keyword">class</span> <span class="type">Education</span> {</h2>
+            </div>
+            
+            <div class="section-content">
+              <div class="code-line">
+                <span class="line-number">01</span>
+                <span class="comment">// My academic background</span>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">02</span>
+                <span class="keyword">constructor</span>() {
+              </div>
+              
+              <div class="education-cards">
+                <div class="card">
+                  <h3>Bachelor of Science in Computer Science</h3>
+                  <p class="institution">University of Technology</p>
+                  <p class="period">2018 - 2022</p>
+                  <ul>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Development</li>
+                    <li>Database Management</li>
+                  </ul>
+                </div>
+                
+                <div class="card">
+                  <h3>Advanced Web Development Certification</h3>
+                  <p class="institution">Tech Academy</p>
+                  <p class="period">2022</p>
+                  <ul>
+                    <li>Modern JavaScript Frameworks</li>
+                    <li>Responsive Design</li>
+                    <li>API Integration</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">03</span>
+                }
+              </div>
+            </div>
+            
+            <div class="section-footer">
+              <h2>};</h2>
+            </div>
+          </div>
+        </section>
+
+        <section id="objectives">
+          <div class="container">
+            <div class="section-header">
+              <span class="icon">🎯</span>
+              <h2><span class="keyword">function</span> <span class="function">objectives</span>() {</h2>
+            </div>
+            
+            <div class="section-content">
+              <div class="code-line">
+                <span class="line-number">01</span>
+                <span class="comment">// Career goals and aspirations</span>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">02</span>
+                <span class="keyword">const</span> <span class="variable">goals</span> = [
+              </div>
+              
+              <div class="objectives-list">
+                <div class="objective-item">
+                  <span class="quote">"</span>
+                  <p>Develop innovative software solutions that solve real-world problems and improve user experiences</p>
+                  <span class="quote">"</span><span>,</span>
+                </div>
+                
+                <div class="objective-item">
+                  <span class="quote">"</span>
+                  <p>Continuously expand my knowledge in emerging technologies and programming languages</p>
+                  <span class="quote">"</span><span>,</span>
+                </div>
+                
+                <div class="objective-item">
+                  <span class="quote">"</span>
+                  <p>Contribute to open-source projects and collaborate with other developers</p>
+                  <span class="quote">"</span><span>,</span>
+                </div>
+                
+                <div class="objective-item">
+                  <span class="quote">"</span>
+                  <p>Eventually lead a development team working on cutting-edge applications</p>
+                  <span class="quote">"</span>
+                </div>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">03</span>
+                ];
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">04</span>
+                <span class="keyword">return</span> goals;
+              </div>
+            </div>
+            
+            <div class="section-footer">
+              <h2>};</h2>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="alt-bg">
+          <div class="container">
+            <div class="section-header">
+              <span class="icon">📁</span>
+              <h2><span class="keyword">import</span> { Projects } <span class="keyword">from</span> <span class="string">'./portfolio'</span>;</h2>
+            </div>
+            
+            <div class="section-content">
+              <div class="code-line">
+                <span class="line-number">01</span>
+                <span class="comment">// Featured projects</span>
+              </div>
+              
+              <div class="projects-grid">
+                <div class="project-card">
+                  <h3>E-commerce Platform</h3>
+                  <p>A full-stack e-commerce application with product management, shopping cart, and payment integration.</p>
+                  
+                  <div class="tags">
+                    <span class="tag tag-blue">React</span>
+                    <span class="tag tag-teal">Node.js</span>
+                    <span class="tag tag-purple">MongoDB</span>
+                    <span class="tag tag-orange">Stripe API</span>
+                  </div>
+                  
+                  <div class="code-line project-url">
+                    <span class="comment">// github.com/username/ecommerce-project</span>
+                  </div>
+                </div>
+                
+                <div class="project-card">
+                  <h3>Task Management App</h3>
+                  <p>A productivity application for organizing tasks with real-time updates and collaboration features.</p>
+                  
+                  <div class="tags">
+                    <span class="tag tag-blue">TypeScript</span>
+                    <span class="tag tag-yellow">Redux</span>
+                    <span class="tag tag-orange">Firebase</span>
+                    <span class="tag tag-green">Material UI</span>
+                  </div>
+                  
+                  <div class="code-line project-url">
+                    <span class="comment">// github.com/username/task-manager</span>
+                  </div>
+                </div>
+                
+                <div class="project-card">
+                  <h3>Weather Dashboard</h3>
+                  <p>A responsive weather application that fetches real-time data and displays forecasts with interactive visualizations.</p>
+                  
+                  <div class="tags">
+                    <span class="tag tag-blue">JavaScript</span>
+                    <span class="tag tag-purple">Chart.js</span>
+                    <span class="tag tag-orange">Weather API</span>
+                    <span class="tag tag-teal">CSS</span>
+                  </div>
+                  
+                  <div class="code-line project-url">
+                    <span class="comment">// github.com/username/weather-dashboard</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="container">
+            <div class="section-header">
+              <span class="icon">✉️</span>
+              <h2><span class="keyword">async function</span> <span class="function">contact</span>() {</h2>
+            </div>
+            
+            <div class="section-content">
+              <div class="code-line">
+                <span class="line-number">01</span>
+                <span class="comment">// Let's get in touch</span>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">02</span>
+                <span class="keyword">await</span> <span class="function">sendMessage</span>({
+              </div>
+              
+              <div class="contact-info">
+                <div class="contact-item">
+                  <span class="icon-small">📧</span>
+                  <span class="contact-label">email</span>: 
+                  <span class="contact-value">"your.email@example.com"</span>
+                </div>
+                
+                <div class="contact-item">
+                  <span class="icon-small">📱</span>
+                  <span class="contact-label">phone</span>: 
+                  <span class="contact-value">"+1 (555) 123-4567"</span>
+                </div>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">03</span>
+                });
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">04</span>
+                <span class="comment">// Connect with me on social media</span>
+              </div>
+              
+              <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span class="icon-social">GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span class="icon-social">LinkedIn</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <span class="icon-social">Twitter</span>
+                </a>
+              </div>
+              
+              <div class="code-line">
+                <span class="line-number">05</span>
+                <div class="download-resume">
+                  <span class="keyword">return</span> 
+                  <button id="download-button">Download Resume</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="section-footer">
+              <h2>};</h2>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="code-line">
+            <span class="comment">/* © 2025 Developer Portfolio • Built with HTML, CSS & JavaScript */</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+    
+    <script src="script.js"></script>
   </body>
 </html>
