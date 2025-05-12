@@ -56,9 +56,9 @@ const Objectives = () => {
   <TableCell>2024</TableCell>
 </TableRow>
 <TableRow className="hover:bg-secondary/30">
-  <TableCell className="font-medium">00 Days of Code: The Complete Python Pro Bootcamp
+  <TableCell className="font-medium">100 Days of Code: The Complete Python Pro Bootcamp
   </TableCell>
-  <TableCell>Self-Project</TableCell>
+  <TableCell>Udemy</TableCell>
   <TableCell>expected - july-2025 </TableCell>
 </TableRow>
 
