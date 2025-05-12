@@ -6,19 +6,15 @@ import SocialLinks from '@/components/SocialLinks';
 
 const Contact = () => {
   const downloadResume = () => {
-    // This is where you'd implement the actual download functionality
-    // For now we'll just log a message
-    console.log('Downloading resume...');
-    
-    // You would typically create a link to your resume file and trigger a download
-    // Example:
-    // const link = document.createElement('a');
-    // link.href = '/path/to/resume.pdf';
-    // link.download = 'John_Doe_Resume.pdf';
-    // document.body.appendChild(link);
-    // link.click();
-    // document.body.removeChild(link);
+    // Replace 'YOUR_GOOGLE_DRIVE_LINK' with your actual Google Drive shareable link
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/file/d/1HcKKNT3EcEnQHZnRgV6zlvT12PwXypsF/view?usp=drive_link';
+    link.download = 'Jnanesha_Reddy_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
+
 
   return (
     <section id="contact" className="px-4 md:px-8">
@@ -45,13 +41,13 @@ const Contact = () => {
             <div className="flex items-center gap-4">
               <Mail className="text-code-blue" />
               <span className="text-code-blue">email</span>: 
-              <span className="text-code-orange ml-2">"your.email@example.com"</span>
+              <span className="text-code-orange ml-2">"jnaneshreddy255@gmail.com"</span>
             </div>
             
             <div className="flex items-center gap-4">
               <Phone className="text-code-blue" />
               <span className="text-code-blue">phone</span>: 
-              <span className="text-code-orange ml-2">"+1 (555) 123-4567"</span>
+              <span className="text-code-orange ml-2">"+91 6362599301"</span>
             </div>
           </div>
           
