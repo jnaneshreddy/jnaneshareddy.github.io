@@ -36,9 +36,10 @@ const Summary = () => {
           <div className="code-line pl-8 mt-4">
             <span className="line-number">04</span>
             <p className="text-lg leading-relaxed">
-              My expertise includes <span className="text-code-orange">frontend development</span> with 
-              React and TypeScript, as well as <span className="text-code-orange">backend development</span> using 
-              Node.js and databases. I'm constantly learning and adapting to new technologies.
+            My expertise includes <span className="text-code-orange">frontend development</span> with 
+React and Bootstrap, as well as <span className="text-code-orange">backend development</span> using 
+PHP and SQL databases. I am proficient in tools like MySQL and PostgreSQL and constantly learning and adapting to new technologies, including frameworks like jQuery and React.
+
             </p>
           </div>
           <div className="code-line mt-4">
