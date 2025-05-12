@@ -38,7 +38,8 @@ const Summary = () => {
             <p className="text-lg leading-relaxed">
             My expertise includes <span className="text-code-orange">frontend development</span> with 
 React and Bootstrap, as well as <span className="text-code-orange">backend development</span> using 
-PHP and SQL databases. I am proficient in tools like MySQL and PostgreSQL and constantly learning and adapting to new technologies, including frameworks like jQuery and React.
+PHP, Python, C, and SQL databases. I am proficient in tools like MySQL and PostgreSQL, have basic knowledge of AWS, and constantly learn and adapt to new technologies, including frameworks like jQuery and React.
+.
 
             </p>
           </div>
