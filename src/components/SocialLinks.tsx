@@ -44,17 +44,17 @@ const SocialLinks = () => {
       isMobile ? "flex-col" : "flex-row"
     )}>
       <SocialLink 
-        href="https://github.com" 
+        href="https://github.com/jnaneshreddy" 
         icon={<Github className="text-code-blue hover:animate-pulse" size={isMobile ? 20 : 24} />} 
         label="GitHub"
       />
       <SocialLink 
-        href="https://linkedin.com" 
+        href="https://www.linkedin.com/in/jnanesh-reddy-4104a9208/" 
         icon={<Linkedin className="text-code-blue hover:animate-pulse" size={isMobile ? 20 : 24} />} 
         label="LinkedIn"
       />
       <SocialLink 
-        href="https://twitter.com" 
+        href="https://x.com/jnaneshreddy17" 
         icon={<Twitter className="text-code-teal hover:animate-pulse" size={isMobile ? 20 : 24} />} 
         label="Twitter"
       />
