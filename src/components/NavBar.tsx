@@ -58,7 +58,7 @@ const NavBar = () => {
               <BookOpen size={16} />
               <span>Education</span>
             </button>
-            <button onClick={() => scrollToSection('objectives')} className="flex items-center gap-2 text-foreground hover:text-code-orange transition-colors">
+            <button onClick={() => scrollToSection('certifications')} className="flex items-center gap-2 text-foreground hover:text-code-orange transition-colors">
               <Target size={16} />
               <span>Certifications</span>
             </button>
