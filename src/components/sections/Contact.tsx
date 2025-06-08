@@ -8,7 +8,7 @@ const Contact = () => {
   const downloadResume = () => {
     // Replace 'YOUR_GOOGLE_DRIVE_LINK' with your actual Google Drive shareable link
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1Hrm4yV9O9DNSv0o-HsDceZeC5uY07S7E/view?usp=drive_link';
+    link.href = 'https://drive.google.com/file/d/14OvCJJghcCxsDu34orjsLLmjZP2nyXIl/view?usp=sharing';
     link.download = 'Jnanesha_Reddy_Resume.pdf';
     document.body.appendChild(link);
     link.click();

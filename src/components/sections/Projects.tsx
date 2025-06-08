@@ -57,22 +57,28 @@ const Projects = () => {
   </div>
 </div>
 
-{/* Project 3
+{/* Project 3 */}
 <div className="bg-secondary rounded-lg p-6 transition-all hover:shadow-[0_0_15px_rgba(78,201,176,0.15)]">
-  <h3 className="text-xl font-bold text-code-teal mb-2">Responsive Web Designing Projects</h3>
-  <p className="mb-4 text-muted-foreground">A series of web design projects focused on creating responsive and visually engaging layouts.</p>
+  <h3 className="text-xl font-bold text-code-teal mb-2">Weather Application - "Klimate"</h3>
+  <p className="mb-4 text-muted-foreground">
+    Developed a responsive weather application using ReactJS, TypeScript, and Tailwind CSS, featuring real-time weather updates, city search, and light/dark mode. Integrated OpenWeather and Geocoding APIs for accurate data retrieval and reverse geocoding. Visualized 24-hour temperature trends using Recharts and managed state with TanStack Query. Deployed the application on Vercel for fast and reliable hosting.
+  </p>
   
   <div className="flex flex-wrap gap-2 mb-4">
-    <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">NEXT JS</Badge>
-    <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">Tailwind CSS</Badge>
-    <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">REAT</Badge>
+    <Badge className="bg-code-blue/20 text-code-blue hover:bg-code-blue/30">REACT JS</Badge>
+    <Badge className="bg-code-purple/20 text-code-purple hover:bg-code-purple/30">TYPESCRIPT</Badge>
+    <Badge className="bg-code-teal/20 text-code-teal hover:bg-code-teal/30">TAILWIND CSS</Badge>
+    <Badge className="bg-code-yellow/20 text-code-yellow hover:bg-code-yellow/30">TANSTACK QUERY</Badge>
+    <Badge className="bg-code-red/20 text-code-red hover:bg-code-red/30">RECHARTS</Badge>
+    <Badge className="bg-code-green/20 text-code-green hover:bg-code-green/30">OPENWEATHER API</Badge>
   </div>
   
   <div className="code-line text-sm">
-    <span className="line-number">03</span>
-    <span className="comment">// github.com/jnaneshreddy/responsive-web-design</span>
+    <span className="line-number">02</span>
+    <span className="comment">// github.com/jnaneshreddy/klimate</span>
   </div>
-</div> */}
+</div>
+
 
         </div>
       </div>
